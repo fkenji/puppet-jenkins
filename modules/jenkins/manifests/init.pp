@@ -14,7 +14,6 @@ class jenkins {
         enable     => true,        
         hasstatus  => true,
         hasrestart => true,        
-        provider => service,
         require   => Package["jenkins"],
     }
 
